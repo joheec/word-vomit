@@ -1,0 +1,20 @@
+.code-container {
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  background-color: #1E1E1E;
+}
+.code-title {
+  color: #A893CC;
+  font-weight: bold;
+}
+.code-snippet {
+  padding: 10px 20px 10px 0;
+}
+.code-lineNumber {
+  border-right: 1px solid #C0C0C0;
+  color: #C0C0C0;
+}
+.code-lineContent {
+  color: #8DCBE2;
+}

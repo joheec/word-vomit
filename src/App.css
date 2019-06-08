@@ -11,3 +11,6 @@
 .App-content {
   margin: 20px;
 }
+.App-entry {
+  border-bottom: 40px #ffffff solid;
+}

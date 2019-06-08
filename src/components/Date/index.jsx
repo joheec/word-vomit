@@ -3,7 +3,7 @@ import './styles.css';
 
 function Date({ date }) {
   return(
-    <div className="date">{date}</div>
+    <div className="date-container">{date}</div>
   );
 }
 

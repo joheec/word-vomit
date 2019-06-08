@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import './styles.css';
 
 function Tag({ hash }) {
   return (
@@ -8,9 +9,9 @@ function Tag({ hash }) {
 
 function Tags({ tags }) {
   return (
-    <Fragment>
+    <div className="tags-container">
       { tags.map(tag => <Tag key={tag} hash={tag} />) }
-    </Fragment>
+    </div>
   );
 }
 

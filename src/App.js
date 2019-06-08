@@ -4,11 +4,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">Word Vomit</header>
       <div className="App-content">
         <Fragment>
-          { posts }
+          {
+            posts.map(entry => {
+              const { id } = entry.props;
+              return <div key={id} className="App-entry">{ entry }</div>
+            })
+          }
         </Fragment>
       </div>
     </div>
