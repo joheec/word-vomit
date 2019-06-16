@@ -3,6 +3,7 @@ import Date from './Date';
 import Entry from './Entry';
 import Indent from './Indent';
 import Tags from './Tags';
+import Video from './Video';
 
 export {
   Code,
@@ -10,4 +11,5 @@ export {
   Entry,
   Indent,
   Tags,
+  Video,
 };
